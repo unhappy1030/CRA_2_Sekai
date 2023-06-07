@@ -1,0 +1,48 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 0
+npc:
+  '0':
+    name: Hoshino_A_I
+    uuid: 08e82203-ed5e-46b1-85fd-00d17215bfc0
+    traits:
+      trader:
+        guiName: Main
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      type: PLAYER
+      owner:
+        uuid: ''
+      location:
+        bodyYaw: 67.4444
+        world: world
+        x: '190.9362'
+        y: '74.0'
+        z: '30.7'
+        yaw: '67.4444'
+        pitch: '-1.4569'
+    traitnames: type,skintrait,location,spawned,trader,scoreboardtrait,rotationtrait,lookclose,inventory,owner,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
