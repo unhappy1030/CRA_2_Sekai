@@ -1,0 +1,406 @@
+butcher:
+  title: butcher
+  command: none
+  permission: none
+  default-shop: sell
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: false
+  logging-enabled: false
+  close-after-purchase: false
+  pages:
+    page-0:
+      size: 54
+      page-name: Page 48921
+      page-permission: ''
+      sell-items:
+        item-0:
+          id: 96
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: BEEF
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:20:52
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:20:52
+          show-price: true
+          trade-price: 4.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-1:
+          id: 97
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: PORKCHOP
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:21:25
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:21:25
+          show-price: true
+          trade-price: 3.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-2:
+          id: 98
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: MUTTON
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:21:38
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:21:38
+          show-price: true
+          trade-price: 3.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-3:
+          id: 99
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: CHICKEN
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:22:00
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:22:00
+          show-price: true
+          trade-price: 4.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-4:
+          id: 100
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: RABBIT
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:22:15
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:22:15
+          show-price: true
+          trade-price: 6.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-9:
+          id: 101
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: COOKED_BEEF
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:22:30
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:22:30
+          show-price: true
+          trade-price: 6.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-10:
+          id: 102
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: COOKED_PORKCHOP
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:22:46
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:22:46
+          show-price: true
+          trade-price: 5.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-11:
+          id: 103
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: COOKED_MUTTON
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:23:00
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:23:00
+          show-price: true
+          trade-price: 5.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-12:
+          id: 104
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: COOKED_CHICKEN
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:23:15
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:23:15
+          show-price: true
+          trade-price: 6.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-13:
+          id: 105
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: COOKED_RABBIT
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 09/06/2023 17:23:29
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 09/06/2023 17:23:29
+          show-price: true
+          trade-price: 8.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
