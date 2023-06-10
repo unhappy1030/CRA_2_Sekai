@@ -10,12 +10,52 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    st_4:
+        min: {x: 127, y: 72, z: 53}
+        max: {x: 160, y: 79, z: 82}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, tnt: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    st_5:
+        min: {x: 149, y: 68, z: 63}
+        max: {x: 180, y: 80, z: 107}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, tnt: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    st_2:
+        min: {x: 166, y: 67, z: 40}
+        max: {x: 218, y: 68, z: 52}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, tnt: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    st_3:
+        min: {x: 126, y: 69, z: 17}
+        max: {x: 165, y: 93, z: 52}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, tnt: deny, mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    st_1:
+        min: {x: 209, y: 67, z: 40}
+        max: {x: 218, y: 76, z: 62}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, tnt: deny, mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     home:
         min: {x: 168, y: 62, z: 19}
         max: {x: 208, y: 108, z: 53}
         members: {}
-        flags: {other-explosion: deny, creeper-explosion: deny, build: deny, use: deny,
-            interact: deny, pvp: deny, tnt: deny, mob-spawning: deny}
+        flags: {other-explosion: deny, creeper-explosion: deny, lava-fire: deny, build: deny,
+            use: deny, interact: deny, pvp: deny, tnt: deny, firework-damage: deny}
         owners: {}
         type: cuboid
         priority: 0

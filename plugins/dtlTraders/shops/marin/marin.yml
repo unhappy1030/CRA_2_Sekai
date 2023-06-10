@@ -2,7 +2,7 @@ marin:
   title: Marin
   command: none
   permission: none
-  default-shop: buy
+  default-shop: sell
   buy-shop-enabled: true
   sell-shop-enabled: true
   trade-shop-enabled: false

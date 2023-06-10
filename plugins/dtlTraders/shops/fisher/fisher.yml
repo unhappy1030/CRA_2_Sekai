@@ -2,8 +2,8 @@ fisher:
   title: fisher
   command: none
   permission: none
-  default-shop: buy
-  buy-shop-enabled: true
+  default-shop: sell
+  buy-shop-enabled: false
   sell-shop-enabled: true
   trade-shop-enabled: false
   logging-enabled: false

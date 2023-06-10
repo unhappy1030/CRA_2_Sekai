@@ -3,7 +3,7 @@ butcher:
   command: none
   permission: none
   default-shop: sell
-  buy-shop-enabled: true
+  buy-shop-enabled: false
   sell-shop-enabled: true
   trade-shop-enabled: false
   logging-enabled: false
