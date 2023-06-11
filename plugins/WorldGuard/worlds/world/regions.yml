@@ -19,8 +19,8 @@ regions:
         type: cuboid
         priority: 0
     st_5:
-        min: {x: 149, y: 68, z: 63}
-        max: {x: 180, y: 80, z: 107}
+        min: {x: 128, y: 66, z: 59}
+        max: {x: 180, y: 79, z: 107}
         members: {}
         flags: {creeper-explosion: deny, build: deny, tnt: deny}
         owners: {}
@@ -50,12 +50,28 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    my_door:
+        min: {x: 200, y: 90, z: 37}
+        max: {x: 201, y: 92, z: 37}
+        members: {}
+        flags: {build: deny, use: deny, interact: deny, tnt: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    st_2_1:
+        min: {x: 163, y: 68, z: 53}
+        max: {x: 208, y: 76, z: 62}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, tnt: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     home:
         min: {x: 168, y: 62, z: 19}
         max: {x: 208, y: 108, z: 53}
         members: {}
         flags: {other-explosion: deny, creeper-explosion: deny, lava-fire: deny, build: deny,
-            use: deny, interact: deny, pvp: deny, tnt: deny, firework-damage: deny}
+            use: allow, interact: allow, tnt: deny, pvp: deny, firework-damage: deny}
         owners: {}
         type: cuboid
         priority: 0

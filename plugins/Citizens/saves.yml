@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 5
+last-created-npc-id: 8
 npc:
   '3':
     metadata:
@@ -11,13 +11,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 61.620285
+        bodyYaw: -39.702232
         world: world
         x: '197.8261'
         y: '74.5'
         z: '30.5066'
-        yaw: '61.6203'
-        pitch: '5.7983'
+        yaw: '-39.7022'
+        pitch: '42.5229'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -47,7 +47,15 @@ npc:
           '1': 360.0
       owner:
         uuid: ''
-    traitnames: skintrait,mounttrait,owner,inventory,location,spawned,type,scoreboardtrait,lookclose,trader,rotationtrait
+      inventory:
+        '40':
+          type_key: netherite_hoe
+          amount: 1
+      equipment:
+        offhand:
+          type_key: netherite_hoe
+          amount: 1
+    traitnames: inventory,spawned,skintrait,trader,owner,equipment,mounttrait,location,lookclose,type,scoreboardtrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -61,13 +69,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -35.90617
+        bodyYaw: 0.91981506
         world: world
         x: '180.4721'
         y: '74.5'
         z: '31.3416'
-        yaw: '-35.9062'
-        pitch: '5.8701'
+        yaw: '0.9198'
+        pitch: '5.7665'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -97,7 +105,15 @@ npc:
           '1': 360.0
       owner:
         uuid: ''
-    traitnames: skintrait,mounttrait,owner,inventory,location,spawned,type,scoreboardtrait,lookclose,trader,rotationtrait
+      inventory:
+        '40':
+          type_key: netherite_pickaxe
+          amount: 1
+      equipment:
+        offhand:
+          type_key: netherite_pickaxe
+          amount: 1
+    traitnames: inventory,skintrait,spawned,trader,owner,equipment,mounttrait,location,lookclose,type,scoreboardtrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -110,13 +126,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 54.05037
+        bodyYaw: 49.842514
         world: world
         x: '191.0697'
         y: '74.5'
         z: '30.1052'
-        yaw: '54.0504'
-        pitch: '5.8037'
+        yaw: '49.8425'
+        pitch: '5.7402'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -146,7 +162,15 @@ npc:
           '1': 360.0
       owner:
         uuid: ''
-    traitnames: skintrait,mounttrait,inventory,owner,location,spawned,type,scoreboardtrait,lookclose,trader,rotationtrait
+      inventory:
+        '0':
+          type_key: spyglass
+          amount: 1
+      equipment:
+        hand:
+          type_key: spyglass
+          amount: 1
+    traitnames: inventory,spawned,skintrait,trader,owner,equipment,mounttrait,location,lookclose,type,scoreboardtrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -160,13 +184,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -94.56517
+        bodyYaw: -73.62304
         world: world
         x: '178.538'
         y: '74.5'
         z: '38.8222'
-        yaw: '-94.5652'
-        pitch: '5.8244'
+        yaw: '-73.623'
+        pitch: '-7.0207'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -196,7 +220,21 @@ npc:
           '1': 360.0
       owner:
         uuid: ''
-    traitnames: skintrait,mounttrait,owner,inventory,location,spawned,type,scoreboardtrait,lookclose,trader,rotationtrait
+      inventory:
+        '0':
+          type_key: mangrove_propagule
+          amount: 1
+        '40':
+          type_key: fishing_rod
+          amount: 1
+      equipment:
+        hand:
+          type_key: mangrove_propagule
+          amount: 1
+        offhand:
+          type_key: fishing_rod
+          amount: 1
+    traitnames: inventory,skintrait,spawned,trader,owner,equipment,mounttrait,location,lookclose,type,scoreboardtrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -210,13 +248,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -61.48587
+        bodyYaw: -48.207573
         world: world
         x: '178.6282'
         y: '74.5'
         z: '36.3759'
-        yaw: '-61.4859'
-        pitch: '5.843'
+        yaw: '-48.2076'
+        pitch: '-10.8984'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -246,7 +284,143 @@ npc:
           '1': 360.0
       owner:
         uuid: ''
-    traitnames: skintrait,mounttrait,owner,inventory,location,spawned,type,scoreboardtrait,lookclose,trader,rotationtrait
+      inventory:
+        '0':
+          type_key: paper
+          amount: 1
+        '40':
+          type_key: netherite_axe
+          amount: 1
+      equipment:
+        hand:
+          type_key: paper
+          amount: 1
+        offhand:
+          type_key: netherite_axe
+          amount: 1
+    traitnames: inventory,spawned,skintrait,trader,owner,equipment,mounttrait,location,lookclose,type,scoreboardtrait,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    metadata:
+      cached-skin-uuid: 2c51464a-6bc2-4018-b18e-84f59fbf7f31
+      cached-skin-uuid-name: 927f8987-534f-429c-a46e-d8e9da38bb26
+    name: Emilia
+    uuid: 1c1cb451-684c-4d18-9c86-1bb5675ab875
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: LTxqUFuukneGZGigE06NvOjxDLd/txfo8H8uYP10Igkska4EW6drHPJT8IwkOcu4WyLpytv7erJGxRKHiPxIPe3nf811O+TwMTi8OC3tBF9+6HYp5b0crGEhJSujfsF36S3Cbq/tywzCjxN5FYCQohfzzNImBgLuWTckljGWdZ8CL27+vpW6n7GWr2m8zgS84paVnFSRraRM6Vr8fBfmXJca/swf4o/sy95GPWhWuoJ2EiMw8VSLLMT3Ee2Ndr1KsAfqi+gI5GHAMjBkeMe1BbFopOrDDqjcRlnJRhuRRxlGr/3SNKlgDLZ9XxBgkF3+yDI8O4u15VBBCaBTn280dZ5f0jDvbKKu1fxN4GB3OxRqlmUPXrgZsZz28WuXCGfcVTa7T8Nqut2diFU1hEez0+TygHJL6agooJ4j2sDsy259j1vzXs5diqE71PBwi4reRAE8CqyBx2IQ++/Dmk6nlZ80RAdrVWqzlPqJzg/dM5fnL5ylM/aRiTVYcWGlMwfsOSZYqnqM62Gi523tqOM83LhqPQC6YcB/HaY3j7FOsU9HZK8y9BQm1XDHcGzTx8hxRqdjHa1o0Um9pNTEpxfaJspxBxj8cm2zx2JaDVtQvFEMTTb+onP5Z8sdlh4og7YmTOS4slifUd3WI2WuY9WdLTWtcaCl8ogWmpP2AMv6ukQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzNDA2MTY0MTg0MSwKICAicHJvZmlsZUlkIiA6ICJmZDQ3Y2I4YjgzNjQ0YmY3YWIyYmUxODZkYjI1ZmMwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDEyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5OGU0ZDFlNDE5YTJmMzZhMzY5NTYzNzhiMjVmNmJjNjUzYjkzYzFlZjAyMjk5NzcyZTYzOWFmNWMyOGU0OGYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+        skinName: 927f8987-534f-429c-a46e-d8e9da38bb26
+      spawned: true
+      trader:
+        guiName: book
+      location:
+        bodyYaw: 53.059067
+        world: world
+        x: '201.7'
+        y: '65.0'
+        z: '29.4428'
+        yaw: '53.0591'
+        pitch: '-30.8805'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+    traitnames: inventory,skintrait,spawned,trader,mounttrait,location,lookclose,type,scoreboardtrait,rotationtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      cached-skin-uuid: 6d34386f-8480-4e75-9277-1ea19582c28f
+      cached-skin-uuid-name: b2095ad8-2a19-4595-8c16-f680403d1c8f
+    name: Mio
+    uuid: 5e5686ac-483a-4711-bc4f-4f6e3b7452e9
+    traits:
+      inventory:
+        '0':
+          type_key: trident
+          amount: 1
+        '38':
+          type_key: elytra
+          amount: 1
+        '39':
+          type_key: turtle_helmet
+          amount: 1
+        '40':
+          type_key: totem_of_undying
+          amount: 1
+      skintrait:
+        fetchDefaultSkin: true
+        signature: g8FHQXW20t17v84spSSX+rChY3KN8qQsFyPQ9zOwaF2FJhi0iGObPQMgAx49/+Jg/fmCSSeVgve+ut6nC30OWUD+Vy8DcgocTQSiMH9WRXL8cCQZtzRx40OMNG1afASXO+MRjUl8EJ1boUYTfTZ0gmtbIgbrfRoDb0EXD21l4dDXXjGcrqQgYufjTj7jLdMRb642JkzGwKME4+qkAnMEXQsMr6zPB6YYEILuP1iQgG00igICFSvcXQvN5Wmf1kjRCv7PGnlcgmtqT2f12wieifmQPUpIjGDh9eNccUTLiV8wUSnJWF/g3NkaENxsQ+4OrdC66aaR3xTUfLyu6pF3b43aaDDiLXOBeaJ/fzQxgX0Lb0rg2/q/pYNL8S5hzDBz1uXEcr4vHK4TH0uiPra/qBXOQKNwrZ8iRKonnucApJfTCJJBprc8ydA/Qt6hoWJrJ7dig2Iz+5+HJklYkbdxYrv37sEaAuiIwvqft3/LzjCdZqpsZ4lytjLNfJy5Q/+lqvXwuRFhDYxJLdZZmOtLfbS4FLNpuWUd/Cf2i9wfOYu7ctiysusVsVRHnntTg/2CumroYT7T5YnAWFWyewAotkjO7jvSdgZSVr5nINbWv9Uc5REGki/gtzpfI81ONR8K4uU1SuwuqfwD+vnMX9N+Ks/50GEgluLDGv9ejHzdHsk=
+        skinName: b2095ad8-2a19-4595-8c16-f680403d1c8f
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY4NjQyOTE4NzY3MSwKICAicHJvZmlsZUlkIiA6ICJiMDU4MTFjYTdmNDk0YTM5OTZiNDU4ZjcwMmQ2MzJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJVeWlsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNmZGZiMzFkMjVkYWMyMWQ1NzVkNjdkZWNiZWRiNjIxYWQ0NmZjODc3MTg5NTU1MGFhY2MxOTUyYWZhNGI4NjYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: true
+      trader:
+        guiName: Wing
+      equipment:
+        hand:
+          type_key: trident
+          amount: 1
+        helmet:
+          type_key: turtle_helmet
+          amount: 1
+        chestplate:
+          type_key: elytra
+          amount: 1
+        offhand:
+          type_key: totem_of_undying
+          amount: 1
+      location:
+        bodyYaw: -96.33564
+        world: world
+        x: '87.4108'
+        y: '127.0'
+        z: '-62.3264'
+        yaw: '-96.3356'
+        pitch: '-31.068'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+    traitnames: inventory,skintrait,spawned,trader,equipment,mounttrait,location,lookclose,type,scoreboardtrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
