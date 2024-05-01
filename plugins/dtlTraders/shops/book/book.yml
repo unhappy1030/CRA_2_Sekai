@@ -27,6 +27,7 @@ book:
               stored-enchants:
                 MENDING: 1
           show-lore: true
+          display-lore: []
           show-description: true
           description: []
           Discount:

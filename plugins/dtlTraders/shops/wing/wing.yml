@@ -22,6 +22,7 @@ wing:
             v: 3337
             type: ELYTRA
           show-lore: true
+          display-lore: []
           show-description: true
           description: []
           Discount:
